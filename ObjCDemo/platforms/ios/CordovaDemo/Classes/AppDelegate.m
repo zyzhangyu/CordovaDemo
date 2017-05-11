@@ -68,9 +68,11 @@
 //      terminal: $cordova plugin add org.apache.cordova.console
 //
 //Program
-//See:
-//1.config.xml
-//2.index.js
-//3.TestPlugin
-//4.index.html
+//See: -> JavaScript
+//          -> 1.config.xml (用于注册Objective-C的文件)
+//             2.index.js   (用于编写应用的事件)
+//             3.index.html (用于编写应用的界面)
+//
+//     -> Objdective-C
+//          -> 1.HelloPlugin (用于处理应用的本地响应)
 //
