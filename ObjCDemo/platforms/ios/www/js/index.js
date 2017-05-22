@@ -41,12 +41,14 @@ var app = {
 
         console.log('Received Event: ' + id);
         
+        /*    1    */
         //Get button
-        var btn = document.getElementById('btn');
+        var say = document.getElementById('say');
         
         //Button click method
-        btn.onclick = function() {
+        say.onclick = function() {
             
+            //JS -> OC
             //cordova.exec(js success callback, js failure callback, oc plugin class, oc method name, oc callback value);
             //p.s.  oc callback value must be types of [].
             cordova.exec(js_success_callback,
@@ -68,6 +70,23 @@ var app = {
         var js_failure_callback = function(value) {
             console.log(value);
         };
+        
+        
+        /*    2    */
+        var open = document.getElementById('open');
+        open.onclick = function() {
+            //JS -> OC
+            cordova.exec(function () {},
+                         function () {},
+                         'HelloPlugin',
+                         'openNew',
+                         []);
+        }
+    },
+    
+    //OC -> JS
+    dismissViewController: function(value) {
+        console.log(value);
     }
 };
 

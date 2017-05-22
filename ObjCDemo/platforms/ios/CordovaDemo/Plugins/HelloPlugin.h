@@ -10,7 +10,10 @@
 
 @interface HelloPlugin : CDVPlugin
 
-//ObjC callback method
+//JS -> OC: ObjC callback method
 - (void)sayHello:(CDVInvokedUrlCommand *)command;
+
+//JS -> OC: ObjC callback method
+- (void)openNew:(CDVInvokedUrlCommand *)command;
 
 @end

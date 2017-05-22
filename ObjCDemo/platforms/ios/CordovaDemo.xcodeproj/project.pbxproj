@@ -14,6 +14,8 @@
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		657680ED1ED2B83C001DA17C /* ExtraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 657680EB1ED2B83C001DA17C /* ExtraViewController.m */; };
+		657680EE1ED2B83C001DA17C /* ExtraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 657680EC1ED2B83C001DA17C /* ExtraViewController.xib */; };
 		6584161A1E9F1D16003B0F42 /* HelloPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 658416191E9F1D16003B0F42 /* HelloPlugin.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,9 @@
 		3047A5101AB8059700498E2A /* build-release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "build-release.xcconfig"; path = "cordova/build-release.xcconfig"; sourceTree = SOURCE_ROOT; };
 		3047A5111AB8059700498E2A /* build.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = build.xcconfig; path = cordova/build.xcconfig; sourceTree = SOURCE_ROOT; };
 		32CA4F630368D1EE00C91783 /* CordovaDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CordovaDemo-Prefix.pch"; sourceTree = "<group>"; };
+		657680EA1ED2B83C001DA17C /* ExtraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtraViewController.h; sourceTree = "<group>"; };
+		657680EB1ED2B83C001DA17C /* ExtraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExtraViewController.m; sourceTree = "<group>"; };
+		657680EC1ED2B83C001DA17C /* ExtraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExtraViewController.xib; sourceTree = "<group>"; };
 		658416181E9F1D16003B0F42 /* HelloPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloPlugin.h; sourceTree = "<group>"; };
 		658416191E9F1D16003B0F42 /* HelloPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloPlugin.m; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = CordovaDemo/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
@@ -82,6 +87,9 @@
 				302D95F014D2391D003F00A1 /* MainViewController.xib */,
 				1D3623240D0F684500981E51 /* AppDelegate.h */,
 				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				657680EA1ED2B83C001DA17C /* ExtraViewController.h */,
+				657680EB1ED2B83C001DA17C /* ExtraViewController.m */,
+				657680EC1ED2B83C001DA17C /* ExtraViewController.xib */,
 			);
 			name = Classes;
 			path = CordovaDemo/Classes;
@@ -251,6 +259,7 @@
 				302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */,
 				0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */,
 				6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */,
+				657680EE1ED2B83C001DA17C /* ExtraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +293,7 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				0F8F06862CDB4916A8C5DCE6 /* CDVLogger.m in Sources */,
 				6584161A1E9F1D16003B0F42 /* HelloPlugin.m in Sources */,
+				657680ED1ED2B83C001DA17C /* ExtraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
